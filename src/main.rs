@@ -5,8 +5,8 @@ use std::cmp::Ordering;
 fn main() {
     println!("Welcome to Guess a number game!");
 
-    
-    let secret_num = rand::thread_rng().gen_range(0..=10);
+
+    let secret_num = rand::thread_rng().gen_range(0..=100);
     // println!("The secret num is {}", secret_num);
 
     loop{
